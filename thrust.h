@@ -27,8 +27,6 @@ public:
    // Thrust is initially turned off
    Thrust() : mainEngine(false), clockwise(false), counterClockwise(false) {}
 
-   /*const Interface* pUI; */
-
    // Get rotation in radians per second
    double rotation() const
    {
